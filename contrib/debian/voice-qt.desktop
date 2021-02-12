@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Voice Core
+Comment=Voice P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Voice peer-to-peer Netzwerk
+Comment[fr]=Voice, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Voice, eşten eşe kriptografik sanal para birimi
+Exec=voice-qt %u
+Terminal=false
+Type=Application
+Icon=voice128
+MimeType=x-scheme-handler/voice;
+Categories=Office;Finance;

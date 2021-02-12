@@ -1,0 +1,6 @@
+usr/local/bin/voice-qt usr/bin
+share/pixmaps/voice32.xpm usr/share/pixmaps
+share/pixmaps/voice16.xpm usr/share/pixmaps
+share/pixmaps/voice128.png usr/share/pixmaps
+debian/voice-qt.desktop usr/share/applications
+debian/voice-qt.protocol usr/share/kde4/services/
