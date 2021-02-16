@@ -315,8 +315,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x7b1a892798e28456c1738d9a8f89dcb4922aba9a28827df37a0fc58b7943c136"));
 
 
-        vSeeds.push_back(CDNSSeedData("45.32.216.227", "45.32.216.227"));
-        vSeeds.push_back(CDNSSeedData("139.180.218.80", "139.180.218.80"));
+        vSeeds.push_back(CDNSSeedData("149.28.114.241", "149.28.114.241"));
+        vSeeds.push_back(CDNSSeedData("140.82.56.110", "140.82.56.110"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,71);
@@ -357,6 +357,9 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             (  0, uint256S("0x000004349f95c4f4fc789da3dfa56d7075c94da4742089c0622cf65de3cf80c8"))
+            (  1, uint256S("0xbcd5fd37ed0641d57a88e177cef09a121ff1d68bb307353f3864cd6f7c1f822d"))
+            (  11, uint256S("0xbdae6b06bb77f08c709d4f7acf23951decfaded9be084ce9cee3b4ca687aca23"))
+            
         };
 
         chainTxData = ChainTxData{
